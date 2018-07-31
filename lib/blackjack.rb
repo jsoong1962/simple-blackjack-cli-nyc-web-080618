@@ -41,6 +41,10 @@ def initial_round
   sum
 end
 
+def invalid_command
+  # code invalid_command here
+  puts "Please enter a valid command"
+end
 
 def hit?(number = initial_round)
   # code hit? here
@@ -56,10 +60,7 @@ def hit?(number = initial_round)
   end
 end
 
-def invalid_command
-  # code invalid_command here
-  puts "Please enter a valid command"
-end
+
 
 #####################################################
 # get every test to pass before coding runner below #
@@ -67,12 +68,12 @@ end
 
 def runner
   # # code runner here
-  # welcome
-  # initial_round
-  # until hit? == 22
-  # hit?
-  # display_card_total(hit?)
-  # end
-  # end_game(hit?)
+  welcome
+  initial_round
+  until hit? == 22
+  hit?
+  display_card_total(hit?)
+  end
+  end_game(hit?)
 end
     
