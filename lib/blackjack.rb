@@ -90,3 +90,5 @@ def runner
   end_game(hit?)
 end
     
+    
+    
