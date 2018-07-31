@@ -59,3 +59,4 @@ def hit?(total)
    prompt_user
   end
 end
+
