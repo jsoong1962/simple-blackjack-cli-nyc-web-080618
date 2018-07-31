@@ -66,14 +66,14 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-# def runner
-#   # # code runner here
-#   welcome
-#   initial_round
-#   until hit? == 22
-#   hit?
-#   display_card_total(hit?)
-#   end
-#   end_game(hit?)
-# end
+def runner
+  # # code runner here
+  welcome
+  initial_round
+  until hit? == 22
+  hit?
+  display_card_total(hit?)
+  end
+  end_game(hit?)
+end
     
