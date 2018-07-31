@@ -48,7 +48,6 @@ end
 
 def hit?(total = 0)
   # code hit? here
-  welcome
   prompt_user
   user_input = get_user_input
   if user_input == 'h'
