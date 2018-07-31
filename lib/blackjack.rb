@@ -1,3 +1,5 @@
+
+
 def hit?(total)
   # code hit? here
   prompt_user
