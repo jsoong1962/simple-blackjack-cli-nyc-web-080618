@@ -60,6 +60,15 @@ def hit?(total)
   end
 end
 
-
+# def runner
+#   # code runner here
+#   welcome
+#   initial_round
+#   until hit? == 22
+#   hit?
+#   display_card_total(hit?)
+#   end
+#   end_game(hit?)
+# end
 
 
