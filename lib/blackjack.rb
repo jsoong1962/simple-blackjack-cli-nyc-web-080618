@@ -60,3 +60,4 @@ def hit?(total)
   end
 end
 
+
