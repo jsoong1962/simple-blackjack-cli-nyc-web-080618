@@ -46,14 +46,14 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-def hit?(total = 0)
+def hit?(total = initial_round)
   # code hit? here
   prompt_user
   user_input = get_user_input
   if user_input == 'h'
     total += deal_card
   elsif user_input == 's'
-    total = initial_round + total
+    total 
   else
     invalid_command
     prompt_user
