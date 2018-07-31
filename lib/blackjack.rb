@@ -46,7 +46,7 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-def hit?(number = initial_round)
+def hit?(total = 0)
   # code hit? here
   welcome
   prompt_user
